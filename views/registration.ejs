@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form action="/register" method="post" class="login-form">
+        <div class="input-box-1">
+          <label for="username" class="username">Name</label>
+          <i class="fas fa-user"></i
+          ><input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Type your name"
+          />
+        </div>
+        <div class="input-box-2">
+          <label for="password" class="password">Username</label>
+          <i class="fas fa-user"></i
+          ><input
+            type="text"
+            name="password"
+            id="password"
+            placeholder="Type your username"
+          />
+        </div>
+        <div class="input-box-1" style="margin-top: 30px">
+          <label for="username" class="username">Password</label>
+          <i class="fas fa-lock"></i
+          ><input
+            type="password"
+            name="username"
+            id="username"
+            placeholder="Type your password"
+          />
+        </div>
+        <div class="input-box-2">
+          <label for="password" class="password">Confirm Password</label>
+          <i class="fas fa-lock"></i
+          ><input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Type your password again"
+          />
+        </div>
+        <div class="login-button">
+          <button type="submit" class="login">REGISTER</button>
+        </div>
+      </form>
+      <!-- <div class="login-methods">
+            <p>Or Sign Up Using</p>
+            <div class="social-media-auth">
+                <img src="https://img.icons8.com/color/48/000000/facebook-circled--v5.png"/>
+                <img src="https://img.icons8.com/color/48/000000/twitter-circled--v1.png"/>
+                <img src="https://img.icons8.com/color/48/000000/google-logo.png"/>
+            </div>
+        </div> -->
+      <div class="signup-redirect">
+        <p>Already Registered...</p>
+        <a href="/">SIGN IN</a>
+      </div>
+    </div>
+  </body>
+</html>
